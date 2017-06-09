@@ -60,7 +60,7 @@ class theme_acparis_core_renderer extends theme_clean_core_renderer {
             // If there is no small logo we always show the site name.
             return $this->get_home_ref($returnlink);
         }
-        $imageurl = $this->page->theme->pix_url('ac-paris-sm', 'theme');
+        $imageurl = $this->page->theme->image_url('ac-paris-sm', 'theme');
         $image = html_writer::img($imageurl, get_string('sitelogo', 'theme_' . $this->page->theme->name),
             array('class' => 'small-logo'));
 
