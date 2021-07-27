@@ -24,10 +24,9 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2016072000;
-$plugin->requires  = 2016051900;
+$plugin->version   = 2021070900;
+$plugin->requires  = 2020060900;
 $plugin->component = 'theme_acparis';
 $plugin->dependencies = array(
-    'theme_bootstrapbase'  => 2016051900,
-    'theme_clean'  => 2016051900,
+    'theme_boost' => '2020061500'
 );
